@@ -3,6 +3,7 @@ var fs          = require('fs');
 var log         = require('./lib/logger');
 var postRequest = require('./lib/postRequest');
 var getRequest  = require('./lib/getRequest');
+var port        = process.env.PORT || 3000;
 
 var server = http.createServer(function (req, res) {
   if (req.method === 'POST') {
@@ -12,7 +13,7 @@ var server = http.createServer(function (req, res) {
   }
 });
 
-server.listen(3000 || process.env.PORT, function () {
-  log.info("Starting Server");
+server.listen(port, function () {
+  log.info("Starting Server on port %d", port);
 });
 
