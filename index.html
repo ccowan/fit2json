@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>Fit2JSON</title>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row-fluid">
+        <div class="col-sm-12">
+          <h1>Fit2JSON</h1>
+          <p>POST a fit file to this server as a multipart/form-data. Set the file argument name as `fitfile`.</p>
+          <form method="POST" enctype="multipart/form-data">
+            <fieldset>
+              <legend>Fit File Upload</legend>
+              <p><input type="file" name="fitfile"/></p>
+              <p><button class="btn btn-primary" type="submit">Submt File</button></p>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

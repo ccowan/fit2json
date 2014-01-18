@@ -1,0 +1,17 @@
+{
+  "name": "fit2json",
+  "version": "0.0.0",
+  "description": "This server will convert a Garmin fit file to JSON",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Cowan",
+  "license": "MIT",
+  "dependencies": {
+    "busboy": "0.0.14",
+    "through2": "~0.4.0",
+    "bunyan": "~0.22.1",
+    "ansicolors": "~0.3.2"
+  }
+}
