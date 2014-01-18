@@ -3,6 +3,13 @@
   "version": "0.0.0",
   "description": "This server will convert a Garmin fit file to JSON",
   "main": "index.js",
+  "engines": {
+    "node": "0.10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ccowan/fit2json.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
