@@ -19,6 +19,7 @@
     "busboy": "0.0.14",
     "through2": "~0.4.0",
     "bunyan": "~0.22.1",
-    "ansicolors": "~0.3.2"
+    "ansicolors": "~0.3.2",
+    "awsbox": "~0.6.2"
   }
 }
